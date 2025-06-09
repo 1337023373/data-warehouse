@@ -1,7 +1,6 @@
 package com.ggzed.im.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ggzed.im.model.entity.RoleInfo;
 import com.ggzed.im.model.entity.UserRole;
 import org.apache.ibatis.annotations.Mapper;
 

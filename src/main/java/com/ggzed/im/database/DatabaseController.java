@@ -1,15 +1,18 @@
 package com.ggzed.im.database;
 
+import com.ggzed.im.common.result.Result;
+import com.ggzed.im.model.req.RepositoryConfigReq;
+import com.ggzed.im.service.DatabaseService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import net.sf.jsqlparser.schema.Database;
+import org.checkerframework.checker.units.qual.A;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
+import javax.validation.Valid;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,11 +26,13 @@ import java.util.*;
 @RestController
 @RequestMapping("/table")
 @Api(tags = "数据库管理")
-public class DataBaseController {
+public class DatabaseController {
     @Resource
     private DataSource dataSource;
     @Resource
     private JdbcTemplate jdbcTemplate;
+    @Resource
+    private DatabaseService databaseService;
 
     @GetMapping("/name")
     @ApiOperation("获取数据表名称")
@@ -76,4 +81,17 @@ public class DataBaseController {
         return dbList;
     }
 
+    @PostMapping("/saveDatabase")
+    @ApiOperation("创建数据库连接")
+    public Result<Boolean> saveDatabase(@RequestBody @Valid RepositoryConfigReq req) throws SQLException {
+        Boolean b = databaseService.saveDatabase(req);
+        return Result.success(b);
+    }
+
+    @PostMapping("/testDatabase")
+    @ApiOperation("测试数据库连接")
+    public Result<Boolean> testDatabase(@RequestBody @Valid RepositoryConfigReq req) throws SQLException {
+        Boolean res = databaseService.testDatabase(req);
+        return Result.success(res);
+    }
 }

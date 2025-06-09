@@ -1,9 +1,7 @@
 package com.ggzed.im.repository;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.ggzed.im.mapper.AuthInfoMapper;
 import com.ggzed.im.mapper.MenuMapper;
-import com.ggzed.im.model.entity.AuthInfo;
 import com.ggzed.im.model.entity.Menus;
 import org.springframework.stereotype.Repository;
 

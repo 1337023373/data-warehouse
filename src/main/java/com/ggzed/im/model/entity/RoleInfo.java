@@ -6,7 +6,6 @@ import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import com.ggzed.im.model.common.BaseModel;
 import lombok.*;
 import lombok.experimental.Accessors;
-import org.apache.ibatis.type.StringTypeHandler;
 
 import java.util.List;
 

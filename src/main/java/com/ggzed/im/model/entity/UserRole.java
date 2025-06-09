@@ -1,13 +1,9 @@
 package com.ggzed.im.model.entity;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.ggzed.im.model.common.BaseModel;
 import lombok.*;
 import lombok.experimental.Accessors;
-import org.apache.ibatis.type.StringTypeHandler;
-
-import java.util.List;
 
 /**
  * <p>

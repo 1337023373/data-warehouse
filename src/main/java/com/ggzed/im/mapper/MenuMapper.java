@@ -1,11 +1,8 @@
 package com.ggzed.im.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ggzed.im.model.entity.AuthInfo;
 import com.ggzed.im.model.entity.Menus;
 import org.apache.ibatis.annotations.Mapper;
-
-import java.awt.*;
 
 /**
  * @author: ggzed

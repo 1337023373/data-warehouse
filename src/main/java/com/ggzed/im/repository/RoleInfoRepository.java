@@ -9,7 +9,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ggzed.im.common.constant.Constants;
 import com.ggzed.im.mapper.RoleInfoMapper;
 import com.ggzed.im.model.entity.RoleInfo;
-import com.ggzed.im.model.entity.UserInfo;
 import com.ggzed.im.model.req.query.RoleQuery;
 import com.ggzed.im.model.req.user.RoleEditReq;
 import org.springframework.stereotype.Repository;
