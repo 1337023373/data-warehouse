@@ -121,6 +121,11 @@
             <version>31.1-jre</version> <!-- 使用最新版本或适合你项目的版本 -->
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
     </dependencies>
     <dependencyManagement>
         <dependencies>

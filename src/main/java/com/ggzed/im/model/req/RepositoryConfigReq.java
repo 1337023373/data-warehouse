@@ -2,6 +2,8 @@ package com.ggzed.im.model.req;
 
 import lombok.Data;
 import javax.validation.constraints.*;
+import java.io.Serializable;
+
 /**
  * @description 数据源管理请求参数
  * @param
@@ -11,7 +13,7 @@ import javax.validation.constraints.*;
  */
 
 @Data
-public class RepositoryConfigReq {
+public class RepositoryConfigReq implements Serializable {
     @NotBlank(message = "资源库名称不能为空")
     @Size(max = 100, message = "资源库名称长度不能超过100个字符")
     private String repoName;

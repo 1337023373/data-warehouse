@@ -1,9 +1,13 @@
 package com.ggzed.im.database;
 
+import cn.hutool.core.util.ObjectUtil;
 import com.ggzed.im.common.factory.DatabaseConnectionStrategy;
 import com.ggzed.im.common.factory.DatabaseConnectionStrategyFactory;
+import com.ggzed.im.common.utils.RedisCache;
 import com.ggzed.im.model.req.RepositoryConfigReq;
 import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -20,9 +24,13 @@ import java.util.concurrent.ConcurrentHashMap;
 public class DynamicDataSourceManager {
     @Resource
     private DatabaseConnectionStrategyFactory strategyFactory;
+    @Resource
+    private RedisCache redisCache;
 
     private final Map<String, DataSource> dataSourceMap = new ConcurrentHashMap<>();
     public Boolean addDataSource(String key, RepositoryConfigReq req) {
+        //登录数据库时，先从redis中查询是否已经登陆过
+        if (!ObjectUtil.isEmpty(redisCache.getCacheObject(key))) return false;
         HikariConfig hikariConfig = new HikariConfig();
         DatabaseConnectionStrategy strategy = strategyFactory.getStrategy(req.getRepoType());
         if (strategy== null) {
@@ -38,6 +46,9 @@ public class DynamicDataSourceManager {
         hikariConfig.setIdleTimeout(300000);
         hikariConfig.setKeepaliveTime(300000);
         hikariConfig.setMaxLifetime(1800000);
+        HikariDataSource dataSource = new HikariDataSource(hikariConfig);
+        dataSourceMap.put(key, dataSource);
+        redisCache.setCacheObject(key, req);
         return true;
     }
 

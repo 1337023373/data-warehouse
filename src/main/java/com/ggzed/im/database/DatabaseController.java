@@ -50,7 +50,7 @@ public class DatabaseController {
 
     @GetMapping("/columns")
     @ApiOperation("获取表字段信息")
-    public List<Map<String, String>> getColumnName(@RequestParam String tableName,@RequestParam String dbName) throws SQLException {
+    public List<Map<String, String>> getColumnName(@RequestParam String tableName, @RequestParam String dbName) throws SQLException {
         List<Map<String, String>> result = new ArrayList<>();
         Connection connection = dataSource.getConnection();
         ResultSet resultSet = connection.getMetaData().getColumns(dbName, null, tableName, null);
@@ -65,7 +65,7 @@ public class DatabaseController {
 
     @GetMapping("/data")
     @ApiOperation("获取表信息")
-    public List<Map<String, Object>> getData(@RequestParam String tableName,@RequestParam String dbName) throws SQLException {
+    public List<Map<String, Object>> getData(@RequestParam String tableName, @RequestParam String dbName) throws SQLException {
         String sql = "select * from " + tableName;
         return jdbcTemplate.queryForList(sql);
     }
@@ -100,7 +100,7 @@ public class DatabaseController {
     @PostMapping("/connectDatabase")
     @ApiOperation("创建数据库连接并保持长连接")
     public Result<Boolean> connectDatabase(@RequestBody @Valid RepositoryConfigReq req) {
-        String key = req.getDatabaseName();
+        String key = "db:config:" + req.getDatabaseName();
         boolean connected = dynamicDataSourceManager.addDataSource(key, req);
         return Result.success(connected);
     }
