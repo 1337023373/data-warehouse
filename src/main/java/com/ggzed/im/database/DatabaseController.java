@@ -33,6 +33,8 @@ public class DatabaseController {
     private JdbcTemplate jdbcTemplate;
     @Resource
     private DatabaseService databaseService;
+    @Resource
+    private DynamicDataSourceManager dynamicDataSourceManager;
 
     @GetMapping("/name")
     @ApiOperation("获取数据表名称")
@@ -81,17 +83,25 @@ public class DatabaseController {
         return dbList;
     }
 
-    @PostMapping("/saveDatabase")
-    @ApiOperation("创建数据库连接")
+    @PostMapping("/saveDatabaseInfo")
+    @ApiOperation("创建数据库连接配置信息")
     public Result<Boolean> saveDatabase(@RequestBody @Valid RepositoryConfigReq req) throws SQLException {
         Boolean b = databaseService.saveDatabase(req);
         return Result.success(b);
     }
 
-    @PostMapping("/testDatabase")
+    @PostMapping("/testDatabaseInfo")
     @ApiOperation("测试数据库连接")
     public Result<Boolean> testDatabase(@RequestBody @Valid RepositoryConfigReq req) throws SQLException {
         Boolean res = databaseService.testDatabase(req);
         return Result.success(res);
+    }
+
+    @PostMapping("/connectDatabase")
+    @ApiOperation("创建数据库连接并保持长连接")
+    public Result<Boolean> connectDatabase(@RequestBody @Valid RepositoryConfigReq req) {
+        String key = req.getDatabaseName();
+        boolean connected = dynamicDataSourceManager.addDataSource(key, req);
+        return Result.success(connected);
     }
 }
