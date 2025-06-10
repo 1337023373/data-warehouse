@@ -20,6 +20,15 @@ spring: #springboot的配置
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
 
+mqtt:
+  url: tcp://10.10.10.242:1883
+  username: admin       # 若未设置，可为空
+  password: public      # 若未设置，可为空
+  client-id: mqtt-service
+  default-topic: test/response
+
+
+
   redis:
     # 地址
     host: 10.10.10.242
