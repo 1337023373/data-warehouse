@@ -1,12 +1,12 @@
 server:
-  port: 10100   #  配置启动端口号
-  servlet:
-    context-path: /im
+  port: 8001   #  配置启动端口号
+#  servlet:
+#    context-path: /im
 
 mybatis:
   config-location: classpath:mybatis.cfg.xml    #  mybatis主配置文件所在路径
   type-aliases-package: com.demo.drools.entity  #  定义所有操作类的别名所在包
-  mapper-locations:                                     #  所有的mapper映射文件
+  mapper-locations: #  所有的mapper映射文件
     - classpath:mapper/*.xml
 
 
@@ -19,16 +19,6 @@ spring: #springboot的配置
     password: mairunQ!@#123 #该数据库用户的密码
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
-
-mqtt:
-  url: tcp://10.10.10.242:1883
-  username: admin       # 若未设置，可为空
-  password: public      # 若未设置，可为空
-  client-id: mqtt-service
-  default-topic: test/response
-
-
-
   redis:
     # 地址
     host: 10.10.10.242
@@ -49,6 +39,52 @@ mqtt:
         max-active: 8
         # #连接池最大阻塞等待时间（使用负值表示没有限制）
         max-wait: -1ms
+  application:
+    name: boot-admin-client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000
+  jmx:
+    enabled: true
+
+mqtt:
+  url: tcp://10.10.10.242:1883
+  username: admin       # 若未设置，可为空
+  password: public      # 若未设置，可为空
+  client-id: mqtt-service
+  default-topic: test/response
+
+# application.yml
+#management:
+#  endpoints:
+#    jmx:
+#      exposure:
+#        include:  "*"
+#    web:
+#      exposure:
+#        include:  "*"
+#  endpoint:
+#    health:
+#      show-details: always
+#    logfile:
+#      external-file: /home/mr/logs
+#      enabled: true
+
+#系统日志配置
+logging:
+  #spring admin boot日志输出配置,需要跟logback-spring.xml配置中日志路径一致
+  file:
+    name: logs/boot-admin-client/error.log
+# 服务端点检查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
 
 # mybatis-plus相关配置
 mybatis-plus:

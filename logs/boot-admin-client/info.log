@@ -1,0 +1,360 @@
+16:35:43.154 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 4180 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:35:43.152 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:35:43.155 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:35:44.668 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:35:44.668 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:35:44.668 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:35:44.670 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:35:44.676 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:35:44.677 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:35:44.677 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:35:44.759 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:35:44.967 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:35:45.044 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:35:46.109 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:35:46.847 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:35:46.862 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:35:46.864 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:35:46.895 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:35:47.023 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:35:47.026 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:35:47.029 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:35:47.056 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.204 seconds (JVM running for 4.928)
+16:35:47.133 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:35:47.163 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:36:05.154 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:36:05.163 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:36:07.204 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 19372 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:36:07.203 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:36:07.206 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:36:08.703 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:36:08.703 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:36:08.703 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:36:08.705 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:36:08.712 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:36:08.713 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:36:08.713 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:36:08.796 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:36:09.002 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:36:09.078 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:36:10.162 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:36:10.905 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:36:10.920 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:36:10.922 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:36:10.952 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:36:11.085 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:36:11.088 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:36:11.093 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:36:11.128 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.216 seconds (JVM running for 4.89)
+16:36:11.165 [http-nio-8001-exec-5] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:36:11.217 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:38:49.456 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:38:49.459 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:38:51.560 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 29548 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:38:51.559 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:38:51.562 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:38:53.175 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:38:53.176 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:38:53.176 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:38:53.178 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:38:53.184 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:38:53.185 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:38:53.185 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:38:53.271 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:38:53.493 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:38:53.572 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:38:54.701 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:38:55.452 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:38:55.466 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:38:55.469 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:38:55.499 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:38:55.630 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:38:55.632 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:38:55.635 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:38:55.663 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.415 seconds (JVM running for 5.109)
+16:38:55.919 [RMI TCP Connection(3)-10.10.10.221] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:38:55.948 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:40:24.459 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:40:24.463 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:40:28.297 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 8092 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:40:28.295 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:40:28.298 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:40:29.942 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:40:29.942 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:40:29.942 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:40:29.944 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:40:29.951 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:40:29.951 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:40:29.952 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:40:30.038 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:40:30.240 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:40:30.320 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:40:31.426 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:40:32.191 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:40:32.204 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:40:32.207 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:40:32.237 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:40:32.355 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:40:32.372 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:40:32.375 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:40:32.378 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:40:32.409 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.426 seconds (JVM running for 5.137)
+16:40:32.499 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:43:27.419 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:43:27.424 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:43:31.183 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 6312 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:43:31.182 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:43:31.186 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:43:32.769 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:43:32.769 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:43:32.769 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:43:32.771 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:43:32.778 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:43:32.778 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:43:32.778 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:43:32.860 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:43:33.058 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:43:33.135 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:43:34.219 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:43:34.963 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:43:34.976 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:43:34.978 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:43:35.008 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:43:35.136 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:43:35.138 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:43:35.141 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:43:35.167 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.294 seconds (JVM running for 4.998)
+16:43:35.245 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:43:35.273 [http-nio-8001-exec-4] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:46:35.917 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:46:35.921 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:46:38.131 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 1436 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:46:38.130 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:46:38.133 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:46:39.749 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:46:39.749 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:46:39.749 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:46:39.752 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:46:39.758 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:46:39.759 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:46:39.759 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:46:39.847 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:46:40.065 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:46:40.147 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:46:41.263 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:46:41.993 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:46:42.007 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:46:42.009 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:46:42.038 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:46:42.170 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:46:42.172 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:46:42.175 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:46:42.202 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.383 seconds (JVM running for 5.112)
+16:46:42.281 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:46:42.311 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:46:53.864 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:46:53.868 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:46:56.041 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 29748 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:46:56.041 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:46:56.044 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:46:57.620 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:46:57.620 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:46:57.620 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:46:57.622 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:46:57.629 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:46:57.629 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:46:57.629 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:46:57.717 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:46:57.920 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:46:57.997 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:46:59.069 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:46:59.791 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:46:59.805 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:46:59.807 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:46:59.838 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:46:59.963 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:46:59.965 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:46:59.968 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:46:59.993 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.272 seconds (JVM running for 4.986)
+16:47:00.069 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:47:00.100 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:47:15.291 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+16:47:15.310 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+16:47:17.404 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 20220 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+16:47:17.403 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:47:17.406 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+16:47:18.952 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+16:47:18.952 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:47:18.952 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:47:18.954 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+16:47:18.961 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+16:47:18.961 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:47:18.961 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:47:19.043 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:47:19.245 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+16:47:19.320 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+16:47:20.392 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:47:21.159 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+16:47:21.173 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+16:47:21.175 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+16:47:21.206 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:47:21.339 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+16:47:21.341 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+16:47:21.344 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+16:47:21.372 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.264 seconds (JVM running for 4.97)
+16:47:21.450 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+16:47:21.479 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:05:51.065 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+17:05:51.070 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+17:05:58.294 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 6420 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:05:58.293 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:05:58.296 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:06:00.158 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:06:00.158 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:06:00.158 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:06:00.161 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:06:00.167 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:06:00.168 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:06:00.168 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:06:00.912 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:06:01.111 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:06:01.192 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:06:02.311 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:06:03.046 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:06:03.068 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:06:03.072 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:06:03.131 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:06:03.308 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:06:03.311 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:06:03.314 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:06:03.343 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 5.365 seconds (JVM running for 10.942)
+17:06:03.425 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:06:03.455 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:06:22.464 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+17:06:22.468 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+17:06:24.617 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 29896 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:06:24.616 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:06:24.619 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:06:26.209 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:06:26.209 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:06:26.209 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:06:26.212 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:06:26.218 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:06:26.219 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:06:26.219 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:06:26.302 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:06:26.511 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:06:26.589 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:06:27.690 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:06:28.452 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:06:28.468 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:06:28.471 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:06:28.503 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:06:28.659 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:06:28.662 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:06:28.666 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:06:28.706 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.406 seconds (JVM running for 5.112)
+17:06:28.786 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:06:28.816 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:06:50.111 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+17:06:50.130 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+17:06:52.237 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 28732 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:06:52.237 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:06:52.240 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:06:53.787 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:06:53.787 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:06:53.787 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:06:53.789 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:06:53.796 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:06:53.796 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:06:53.797 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:06:53.880 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:06:54.076 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:06:54.155 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:06:55.225 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:06:55.989 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:06:56.002 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:06:56.005 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:06:56.031 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:06:56.168 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:06:56.170 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:06:56.173 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:06:56.200 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.275 seconds (JVM running for 4.963)
+17:06:56.279 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:06:56.309 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:06:59.014 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+17:06:59.017 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+17:07:01.120 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:07:01.120 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 26732 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:07:01.123 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:07:02.725 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:07:02.725 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:07:02.725 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:07:02.727 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:07:02.734 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:07:02.734 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:07:02.734 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:07:02.816 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:07:03.023 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:07:03.102 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:07:04.203 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:07:04.808 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:07:04.970 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:07:04.973 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:07:04.999 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:07:05.135 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:07:05.138 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:07:05.140 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:07:05.166 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.362 seconds (JVM running for 5.05)
+17:07:05.237 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:07:05.265 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:17.233 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2138] - {dataSource-1} closing ...
+17:07:17.237 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2211] - {dataSource-1} closed
+17:07:19.376 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 29208 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:07:19.375 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:07:19.379 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:07:20.943 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:07:20.943 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:07:20.943 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:07:20.946 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:07:20.952 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:07:20.952 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:07:20.952 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:07:21.036 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:07:21.234 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:07:21.311 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:07:22.389 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:07:23.131 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:07:23.144 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:07:23.147 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:07:23.177 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:07:23.303 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:07:23.305 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:07:23.308 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:07:23.334 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.266 seconds (JVM running for 4.973)
+17:07:23.410 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:07:23.438 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:17:22.728 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:17:22.728 [main] INFO  c.g.im.ImApplication - [logStarting,55] - Starting ImApplication using Java 1.8.0_321 on DESKTOP-U2CCJLI with PID 26124 (D:\java\homeSpace\im-server\target\classes started by mairun in D:\java\homeSpace\im-server)
+17:17:22.732 [main] INFO  c.g.im.ImApplication - [logStartupProfileInfo,645] - No active profile set, falling back to 1 default profile: "default"
+17:17:24.353 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+17:17:24.354 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:17:24.354 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:17:24.356 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+17:17:24.363 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8001"]
+17:17:24.364 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:17:24.364 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:17:24.451 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:17:24.650 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,55] - Init DruidDataSource
+17:17:24.725 [main] INFO  c.a.d.p.DruidDataSource - [init,996] - {dataSource-1} inited
+17:17:25.811 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:17:26.443 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8001"]
+17:17:26.603 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,93] - Documentation plugins bootstrapped
+17:17:26.605 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [bootstrapDocumentationPlugins,79] - Found 1 custom documentation plugin(s)
+17:17:26.636 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+17:17:26.772 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: pageUsingPOST_1
+17:17:26.774 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: deleteUsingPOST_1
+17:17:26.777 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,41] - Generating unique operation named: editUsingPOST_1
+17:17:26.804 [main] INFO  c.g.im.ImApplication - [logStarted,61] - Started ImApplication in 4.406 seconds (JVM running for 5.105)
+17:17:26.877 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - [register,82] - Application registered itself as ce20b3b4584f
+17:17:26.908 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
